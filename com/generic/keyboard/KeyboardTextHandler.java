@@ -1,4 +1,4 @@
-package com.generic;
+package com.generic.keyboard;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

@@ -1,4 +1,4 @@
-package com.generic;
+package com.generic.keyboard;
 
 import javax.swing.JFrame;
 import java.awt.event.KeyEvent;
