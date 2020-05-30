@@ -1,5 +1,9 @@
 package com.generic.sync;
 
+/**
+ * fonctionne, attend le nombre de threads [count] pour les débloquer.
+ */
+
 public class CountDownLatch {
     private int count;
 

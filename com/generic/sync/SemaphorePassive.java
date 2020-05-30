@@ -1,5 +1,8 @@
 package com.generic.sync;
 
+/**
+ * Fonctionnel. Donne l'accès dans l'ordre d'appel à getToken();
+ */
 public class SemaphorePassive {
     private int tokens;
 
@@ -7,7 +10,7 @@ public class SemaphorePassive {
         this.tokens = tokens;
     }
 
-    public void getToken() {
+    public synchronized void getToken() {
         if (tokens != 0) {
             tokens--;
         } else {
@@ -23,5 +26,8 @@ public class SemaphorePassive {
 
     public void releaseToken() {
         tokens++;
+        synchronized (this) {
+            this.notify();
+        }
     }
 }

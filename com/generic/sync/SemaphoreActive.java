@@ -1,5 +1,9 @@
 package com.generic.sync;
 
+/**
+ * Fonctionnel, donne l'accès a la ressource sans prendre en compte l'ordre
+ * d'appel à la fonction.
+ */
 public class SemaphoreActive {
     private volatile int tokens;
 
@@ -7,13 +11,14 @@ public class SemaphoreActive {
         this.tokens = tokens;
     }
 
-    public void getToken(Thread thr) {
+    public synchronized void getToken(Thread thr) {
+        while (tokens == 0) {
+            thr.yield();
+        }
+
         if (tokens != 0) {
             tokens--;
-        } else {
-            while (tokens == 0) {
-                thr.yield();
-            }
+            System.out.println("Token pris, reste " + tokens);
         }
     }
 

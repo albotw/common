@@ -1,5 +1,9 @@
 package com.generic.sync;
 
+/**
+ * Fonctionnel, Les threads ont accès au verrouillage dans l'ordre ou ils ont
+ * appelé la méthode de verrouillage.
+ */
 public class Lock {
     private boolean locked;
 
@@ -25,7 +29,7 @@ public class Lock {
         locked = false;
 
         synchronized (this) {
-            this.notifyAll();
+            this.notify();
         }
     }
 }

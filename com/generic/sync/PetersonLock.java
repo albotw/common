@@ -1,5 +1,9 @@
 package com.generic.sync;
 
+/**
+ * Fonctionnel. donne l'accès au verrou dans l'ordre d'appel à lock().
+ */
+
 public class PetersonLock {
     private volatile int turn;
     boolean[] flag;
