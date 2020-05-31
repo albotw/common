@@ -1,0 +1,16 @@
+On a :
+Un JPanel qui peut afficher des sprites
+Une classe SpriteManager qui contient deux arrayList de sprites
+Un thread de rendu qui génère un tick de calcul toutes les 16ms
+
+Process:
+Le chargement des sprites se fait dans la classe SpriteLoader.
+les sprites animés sont mis de coté dans une arrayList spéciale.
+
+A chaque tick:
+On actualise les FPS et le titre de la fenêtre. 
+On met a jour les animations contenues dans l'AL de SpriteManager
+On appelle la méthode de transfer de spritemanager
+on repaint
+on attend 16 ms
+on recommence.

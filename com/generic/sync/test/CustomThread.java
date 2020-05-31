@@ -1,4 +1,10 @@
-package com.generic.sync;
+package com.generic.sync.test;
+
+import com.generic.sync.CountDownLatch;
+import com.generic.sync.Lock;
+import com.generic.sync.PetersonLock;
+import com.generic.sync.SemaphoreActive;
+import com.generic.sync.SemaphorePassive;
 
 public class CustomThread extends Thread {
     private CountDownLatch l = Test.l;

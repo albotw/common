@@ -1,4 +1,10 @@
-package com.generic.sync;
+package com.generic.sync.test;
+
+import com.generic.sync.CountDownLatch;
+import com.generic.sync.Lock;
+import com.generic.sync.PetersonLock;
+import com.generic.sync.SemaphoreActive;
+import com.generic.sync.SemaphorePassive;
 
 public class Test {
     public static CountDownLatch l = new CountDownLatch(3);
@@ -8,7 +14,7 @@ public class Test {
     public static SemaphorePassive sPassive = new SemaphorePassive(1);
 
     public static void main(String[] args) {
-        sPassiveTest();
+        cdlTest();
     }
 
     public static void cdlTest() {
