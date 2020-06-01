@@ -1,8 +1,9 @@
+package com.generic.graphics.sprites;
+
 import java.awt.*;
 
 public class AnimatedSprite extends Sprite {
     protected Animation anim;
-    protected boolean animationDone;
 
     public AnimatedSprite(int x, int y, boolean loop, boolean clear) {
         super(x, y);
@@ -15,6 +16,7 @@ public class AnimatedSprite extends Sprite {
     }
 
     public void loadImage(String dir, long duration) {
+        System.out.println("load image (animated)");
         this.anim.addFrame(dir, duration);
     }
 
@@ -23,10 +25,7 @@ public class AnimatedSprite extends Sprite {
     }
 
     public void updateAnim(long elapsedTime) {
-        if (this.anim.isClear() == false) {
-            this.anim.update(elapsedTime);
-        } else {
-            animationDone = true;
-        }
-    } // ajouter code pour purger le buffer de rendu si l'animation est fini
+        System.out.println("call update (animated sprite)");
+        this.anim.update(elapsedTime);
+    }
 }

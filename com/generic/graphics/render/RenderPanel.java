@@ -1,4 +1,7 @@
-package com.generic.graphics;
+package com.generic.graphics.render;
+
+import com.generic.graphics.sprites.Sprite;
+import com.generic.graphics.sprites.SpriteManager;
 
 import javax.swing.*;
 import java.awt.*;

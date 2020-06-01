@@ -1,4 +1,4 @@
-package com.generic.graphics;
+package com.generic.graphics.sprites;
 
 import java.util.ArrayList;
 import java.awt.*;
@@ -10,18 +10,17 @@ public class Animation {
     private long animTime;
     private int totalDuration;
     private boolean loop;
+    private boolean vBlank;
+    private boolean ended;
 
-    private boolean continuer;
-    private boolean clear;
-
-    public Animation(boolean loop, boolean clear) {
+    public Animation(boolean loop, boolean vBlank) {
         this.totalDuration = 0;
         this.loop = loop;
-        this.clear = clear;
+        this.vBlank = vBlank;
 
         this.frames = new ArrayList<AnimationFrame>();
 
-        if (clear) {
+        if (vBlank) {
             addFrame("src/textures/clear.png", 1); // ? utilité ? ajoute une frame de 1 contenant un carré de 1px noir.
         }
 
@@ -31,49 +30,49 @@ public class Animation {
     public void start() {
         animTime = 0;
         currFrameIndex = 0;
-        this.continuer = false;
+        ended = false;
+    }
+
+    public void reset() {
+        start();
     }
 
     public void addFrame(String dir, long duration) {
         totalDuration += duration;
         ImageIcon ii = new ImageIcon(dir);
         Image img = ii.getImage();
+        System.out.println(img.getHeight(null));
         frames.add(new AnimationFrame(img, totalDuration));
     }
 
     public void update(long elapsedTime) {
-        if (frames.size() > 1) {
+        System.out.println("animation update: " + currFrameIndex + " | " + frames.size() + " | " + animTime + " | " + totalDuration);
+        if (frames.size() > 1 && !ended) {
             if (currFrameIndex != frames.size()) {
                 animTime += elapsedTime;
-                if (animTime >= totalDuration) {
+                if (animTime > totalDuration) {
                     if (loop) // * on reboucle sur le début de l'animation
                     {
                         animTime = animTime % totalDuration;
                         currFrameIndex = 0;
-                        continuer = true;
                     } else // * on arrête l'animation
                     {
                         animTime = 0;
                         currFrameIndex = 0; // ? A voir si a la fin de l'animation, reste bloqué sur 1ere ou dernière
                                             // image.
-                        continuer = false;
+                        ended = true;
                     }
-
-                    /**
-                     * * c'était dans le code, aucune idée pourquoi. if (continuer) {while(animTime
-                     * > getFrame(currFrameIndex).endTime) { currFrameIndex++;}}
-                     */
+                }
+                while(animTime > getFrame(currFrameIndex).getEndTime())
+                {
+                    currFrameIndex++;
                 }
             }
         }
     }
 
     public Image getImage() {
-        if (frames.size() == 0) {
-            return null;
-        } else {
-            return getFrame(currFrameIndex).image;
-        }
+        return getFrame(currFrameIndex).image;
     }
 
     public AnimationFrame getFrame(int index) {
@@ -81,6 +80,6 @@ public class Animation {
     }
 
     public boolean isClear() {
-        return this.clear;
+        return this.vBlank;
     }
 }

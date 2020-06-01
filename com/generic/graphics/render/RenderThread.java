@@ -1,4 +1,6 @@
-package com.generic.graphics;
+package com.generic.graphics.render;
+
+import com.generic.graphics.sprites.SpriteManager;
 
 import java.awt.*;
 import static com.generic.graphics.CONFIG.*;
@@ -6,13 +8,15 @@ import static com.generic.graphics.CONFIG.*;
 public class RenderThread extends Thread {
 
     private boolean continueDrawing;
+    private long currTime;
 
+    private SpriteManager sm = SpriteManager.instance;
     private FPSCounter fps;
     private Window w;
     private RenderPanel rp;
 
-    public RenderThread() {
-
+    public RenderThread(Window w) {
+        this.w = w;
         fps = new FPSCounter();
 
         rp = new RenderPanel();
@@ -20,20 +24,23 @@ public class RenderThread extends Thread {
         w.add(rp, BorderLayout.CENTER);
 
         continueDrawing = true;
+        currTime = 0;
     }
 
     public void run() {
         System.out.println("--- RenderThread started ---");
         fps.start();
         while (continueDrawing) {
-
+            sm.updateAnimations(TICK);
+            System.out.println("" + currTime);
             fps.frame();
             w.setTitle(WINDOW_TITLE + " | FPS: " + fps.get());
             // w.revalidate();
             rp.repaint();
 
             try {
-                sleep(16);
+                sleep(TICK);
+                currTime += TICK;
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

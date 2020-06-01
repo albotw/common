@@ -1,4 +1,4 @@
-package com.generic.graphics;
+package com.generic.graphics.sprites;
 
 import java.util.ArrayList;
 
@@ -32,6 +32,7 @@ public class SpriteManager {
         } else if (position == "background") {
             background.add(spr);
         }
+        System.out.println(foreground.size() + " | " + toUpdate.size());
     }
 
     public synchronized void addAnimatedSprite(AnimatedSprite spr, String position) {
@@ -56,8 +57,9 @@ public class SpriteManager {
 
     public synchronized void updateAnimations(long elapsedTime) {
         for (int i = 0; i < toUpdate.size(); i++) {
-            toUpdate.get(i).anim.update(elapsedTime);
+            toUpdate.get(i).updateAnim(elapsedTime);
         }
+        System.out.println("updated animations");
     }
 
     public int getFSize() {

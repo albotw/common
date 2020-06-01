@@ -14,3 +14,10 @@ On appelle la méthode de transfer de spritemanager
 on repaint
 on attend 16 ms
 on recommence.
+
+mise a jour des animations:
+SpriteManager.updateAnimations()->AnimatedSprite.updateAnim()->animation.update()
+
+récupération de l'image par le rendu:
+RenderPanel.repaint()->SpriteManager.getSprite()->Sprite.getTexture()
+------------------------------------------------|Animation.getImage()->getFrame():

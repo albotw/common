@@ -1,4 +1,4 @@
-package com.generic.graphics;
+package com.generic.graphics.render;
 
 import javax.swing.*;
 
