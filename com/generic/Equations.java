@@ -51,4 +51,33 @@ public class Equations {
 
         return nombre;
     }
+
+    public int[][] matrix_pow(int[][] m, int n) {
+        if (n == 0) {
+            int[][] id = new int[2][2];
+            id[0][0] = 1;
+            id[1][1] = 1;
+            return id;
+        } else {
+            int[][] temp = matrix_pow(m, n / 2);
+            temp = matrix_prod(temp, temp);
+            if (n % 2 != 0) {
+                temp[0][0] *= n;
+                temp[0][1] *= n;
+                temp[1][0] *= n;
+                temp[1][1] *= n;
+            }
+
+            return temp;
+        }
+    }
+
+    public int[][] matrix_prod(int[][] m, int[][] n) {
+        int[][] output = new int[2][2];
+        output[0][0] = m[0][0] * n[1][0];
+        output[0][1] = m[0][0] * n[1][1];
+        output[1][0] = m[0][1] * n[1][0];
+        output[1][1] = m[1][1] * n[1][1];
+        return output;
+    }
 }
