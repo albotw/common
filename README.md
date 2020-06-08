@@ -5,4 +5,4 @@ classes et algorithmes communs pouvant être réutilisés dans plusieurs program
 * com/generic/... -> langage java
 * c_lang -> langage c
 * cpp_lang -> langage c++
-* py_lang -> langage python
+* csharp_common -> langage C#
