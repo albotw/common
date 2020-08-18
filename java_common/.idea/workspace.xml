@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="common" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="62cac326-3b76-4179-af71-111d96e5ae42" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1eaH9o1iyVntEScJHTDzjWPp9mO" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/com/generic/graphics/test" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.Test Graphiques">
+    <configuration name="Test Graphiques" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.generic.graphics.test.Test" />
+      <module name="java_common" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test Misc" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.generic.misc.test.Main" />
+      <module name="java_common" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test Synchro" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.generic.sync.test.Test" />
+      <module name="java_common" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test Graphiques" />
+      <item itemvalue="Application.Test Misc" />
+      <item itemvalue="Application.Test Synchro" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62cac326-3b76-4179-af71-111d96e5ae42" name="Default Changelist" comment="" />
+      <created>1594552634942</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594552634942</updated>
+      <workItem from="1594552637875" duration="314000" />
+      <workItem from="1594554750437" duration="1507000" />
+      <workItem from="1594565694778" duration="1202000" />
+      <workItem from="1594567317568" duration="59000" />
+      <workItem from="1594567475884" duration="609000" />
+      <workItem from="1594675317552" duration="1024000" />
+      <workItem from="1594723953561" duration="1825000" />
+      <workItem from="1594739153059" duration="1074000" />
+      <workItem from="1594740788116" duration="329000" />
+      <workItem from="1594741826076" duration="3474000" />
+      <workItem from="1594800065193" duration="2238000" />
+      <workItem from="1594892827279" duration="624000" />
+      <workItem from="1595102440124" duration="406000" />
+      <workItem from="1595149151677" duration="24000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594741116115">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1080.-426.1080.1880@0.0.1920.1040" timestamp="1594741116115" />
+    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1594742930047">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1080.-426.1080.1880@0.0.1920.1040" timestamp="1594742930047" />
+    <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1594741102691">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/-1080.-426.1080.1880@0.0.1920.1040" timestamp="1594741102691" />
+    <state x="-775" y="379" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1594800118781">
+      <screen x="-1080" y="-426" width="1080" height="1880" />
+    </state>
+    <state x="-775" y="379" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/-1080.-426.1080.1880@-1080.-426.1080.1880" timestamp="1594800118781" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594555832785">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1080.-426.1080.1880@0.0.1920.1040" timestamp="1594555832785" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1594552917108">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1080.-426.1080.1880@0.0.1920.1040" timestamp="1594552917108" />
+    <state width="1899" height="133" key="GridCell.Tab.0.bottom" timestamp="1594893470063">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1059" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.-426.1080.1880@-1080.-426.1080.1880" timestamp="1594751979867" />
+    <state width="1899" height="133" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.-426.1080.1880@0.0.1920.1040" timestamp="1594893470063" />
+    <state width="1899" height="133" key="GridCell.Tab.0.center" timestamp="1594893470063">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1059" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.-426.1080.1880@-1080.-426.1080.1880" timestamp="1594751979867" />
+    <state width="1899" height="133" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.-426.1080.1880@0.0.1920.1040" timestamp="1594893470063" />
+    <state width="1899" height="133" key="GridCell.Tab.0.left" timestamp="1594893470063">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1059" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.-426.1080.1880@-1080.-426.1080.1880" timestamp="1594751979867" />
+    <state width="1899" height="133" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.-426.1080.1880@0.0.1920.1040" timestamp="1594893470063" />
+    <state width="1899" height="133" key="GridCell.Tab.0.right" timestamp="1594893470063">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1059" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.-426.1080.1880@-1080.-426.1080.1880" timestamp="1594751979867" />
+    <state width="1899" height="133" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.-426.1080.1880@0.0.1920.1040" timestamp="1594893470063" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1594740901773">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1080.-426.1080.1880@0.0.1920.1040" timestamp="1594740901773" />
+    <state x="776" y="297" width="725" height="445" key="chooseDestDirectoryDialog" timestamp="1594743646914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="776" y="297" width="725" height="445" key="chooseDestDirectoryDialog/0.0.1920.1040/-1080.-426.1080.1880@0.0.1920.1040" timestamp="1594743646914" />
+    <state x="597" y="100" key="new project wizard" timestamp="1595149173157">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="597" y="100" key="new project wizard/0.0.1920.1040/-1080.-426.1080.1880@0.0.1920.1040" timestamp="1595149173157" />
+  </component>
+</project>
