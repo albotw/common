@@ -1,0 +1,16 @@
+but du jeu: arriver à finir ce niveau --> des pieges partout
+mouvement avec les fleches. 
+haut sauter; bas descendre ; droite avancer, gauche reculers
+
+valeurs x et y de l'image du personnage a mettre sous forme de variables.
+si fleche gauche/droite presse alors ajouter/retirer à x.
+si fleche haut pressée alors ajouter 10 à y puis retirer, le tout pendant 0.6 sec.
+si escape pressé alors RAGEQUIT.
+
+a ajouter si temps disponible:
+enemis
+flingues
+objets
+pieges
+plusieurs niveaux
+encore plus de pieges
