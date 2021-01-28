@@ -16,7 +16,6 @@ public class AnimatedSprite extends Sprite {
     }
 
     public void loadImage(String dir, long duration) {
-        System.out.println("load image (animated)");
         this.anim.addFrame(dir, duration);
     }
 
@@ -25,7 +24,6 @@ public class AnimatedSprite extends Sprite {
     }
 
     public void updateAnim(long elapsedTime) {
-        System.out.println("call update (animated sprite)");
         this.anim.update(elapsedTime);
     }
 }

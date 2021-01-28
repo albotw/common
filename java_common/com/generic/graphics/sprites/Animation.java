@@ -41,12 +41,12 @@ public class Animation {
         totalDuration += duration;
         ImageIcon ii = new ImageIcon(dir);
         Image img = ii.getImage();
-        System.out.println(img.getHeight(null));
+        System.out.println("loaded " + dir + " [" + img.getHeight(null) + "x" + img.getWidth(null) + "] for duration " + duration);
         frames.add(new AnimationFrame(img, totalDuration));
     }
 
     public void update(long elapsedTime) {
-        System.out.println("animation update: " + currFrameIndex + " | " + frames.size() + " | " + animTime + " | " + totalDuration);
+        //System.out.println("animation update: " + currFrameIndex + " | " + frames.size() + " | " + animTime + " | " + totalDuration);
         if (frames.size() > 1 && !ended) {
             if (currFrameIndex != frames.size()) {
                 animTime += elapsedTime;

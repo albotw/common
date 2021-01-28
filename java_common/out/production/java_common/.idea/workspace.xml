@@ -38,6 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/com/generic/graphics/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../dijkstra_rework" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -70,6 +71,7 @@
       <item itemvalue="Application.Test Synchro" />
     </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -91,62 +93,36 @@
       <workItem from="1594740788116" duration="329000" />
       <workItem from="1594741826076" duration="3474000" />
       <workItem from="1594800065193" duration="2238000" />
-      <workItem from="1594892827279" duration="611000" />
+      <workItem from="1594892827279" duration="624000" />
+      <workItem from="1595102440124" duration="406000" />
+      <workItem from="1595149151677" duration="24000" />
+      <workItem from="1598268578479" duration="2857000" />
+      <workItem from="1605445237725" duration="36000" />
+      <workItem from="1605454931851" duration="156000" />
+      <workItem from="1605455304304" duration="67000" />
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594741116115">
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1605445271661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1080.-426.1080.1880@0.0.1920.1040" timestamp="1594741116115" />
-    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1594742930047">
+    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605445271661" />
+    <state width="1899" height="133" key="GridCell.Tab.0.bottom" timestamp="1605455087845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1080.-426.1080.1880@0.0.1920.1040" timestamp="1594742930047" />
-    <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1594741102691">
+    <state width="1899" height="133" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605455087845" />
+    <state width="1899" height="133" key="GridCell.Tab.0.center" timestamp="1605455087845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/-1080.-426.1080.1880@0.0.1920.1040" timestamp="1594741102691" />
-    <state x="-775" y="379" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1594800118781">
-      <screen x="-1080" y="-426" width="1080" height="1880" />
-    </state>
-    <state x="-775" y="379" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/-1080.-426.1080.1880@-1080.-426.1080.1880" timestamp="1594800118781" />
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594555832785">
+    <state width="1899" height="133" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605455087845" />
+    <state width="1899" height="133" key="GridCell.Tab.0.left" timestamp="1605455087845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1080.-426.1080.1880@0.0.1920.1040" timestamp="1594555832785" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1594552917108">
+    <state width="1899" height="133" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605455087845" />
+    <state width="1899" height="133" key="GridCell.Tab.0.right" timestamp="1605455087845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1080.-426.1080.1880@0.0.1920.1040" timestamp="1594552917108" />
-    <state width="1059" height="279" key="GridCell.Tab.0.bottom" timestamp="1594751979867">
-      <screen x="-1080" y="-426" width="1080" height="1880" />
-    </state>
-    <state width="1059" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.-426.1080.1880@-1080.-426.1080.1880" timestamp="1594751979867" />
-    <state width="1899" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.-426.1080.1880@0.0.1920.1040" timestamp="1594743651372" />
-    <state width="1059" height="279" key="GridCell.Tab.0.center" timestamp="1594751979867">
-      <screen x="-1080" y="-426" width="1080" height="1880" />
-    </state>
-    <state width="1059" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.-426.1080.1880@-1080.-426.1080.1880" timestamp="1594751979867" />
-    <state width="1899" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.-426.1080.1880@0.0.1920.1040" timestamp="1594743651372" />
-    <state width="1059" height="279" key="GridCell.Tab.0.left" timestamp="1594751979867">
-      <screen x="-1080" y="-426" width="1080" height="1880" />
-    </state>
-    <state width="1059" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.-426.1080.1880@-1080.-426.1080.1880" timestamp="1594751979867" />
-    <state width="1899" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.-426.1080.1880@0.0.1920.1040" timestamp="1594743651372" />
-    <state width="1059" height="279" key="GridCell.Tab.0.right" timestamp="1594751979867">
-      <screen x="-1080" y="-426" width="1080" height="1880" />
-    </state>
-    <state width="1059" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.-426.1080.1880@-1080.-426.1080.1880" timestamp="1594751979867" />
-    <state width="1899" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.-426.1080.1880@0.0.1920.1040" timestamp="1594743651372" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1594740901773">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1080.-426.1080.1880@0.0.1920.1040" timestamp="1594740901773" />
-    <state x="776" y="297" width="725" height="445" key="chooseDestDirectoryDialog" timestamp="1594743646914">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="776" y="297" width="725" height="445" key="chooseDestDirectoryDialog/0.0.1920.1040/-1080.-426.1080.1880@0.0.1920.1040" timestamp="1594743646914" />
+    <state width="1899" height="133" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605455087845" />
   </component>
 </project>

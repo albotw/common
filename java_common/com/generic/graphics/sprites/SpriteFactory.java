@@ -1,6 +1,8 @@
 package com.generic.graphics.sprites;
 
 
+import org.jetbrains.annotations.NotNull;
+
 /**
  * Règles de chargement de sprites:
  * Tous les sprites doivent être au format png
@@ -23,7 +25,8 @@ public class SpriteFactory {
         return spr;
     }
 
-    public static AnimatedSprite createLoopAnimation(int x, int y, String baseDir, int nFrames, long totalDuration)
+    public static @NotNull
+    AnimatedSprite createLoopAnimation(int x, int y, String baseDir, int nFrames, long totalDuration)
     {
 
         long frameDuration = totalDuration / nFrames;
