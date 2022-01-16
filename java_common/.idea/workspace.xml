@@ -6,7 +6,18 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62cac326-3b76-4179-af71-111d96e5ae42" name="Default Changelist" comment="" />
+    <list default="true" id="62cac326-3b76-4179-af71-111d96e5ae42" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../csharp/csharp_common.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csharp/csharp_common/CountDownLatch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csharp/csharp_common/Equations.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csharp/csharp_common/FileIO.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csharp/csharp_common/Lock.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csharp/csharp_common/Paire.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csharp/csharp_common/Timer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csharp/csharp_common/csharp_common.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,10 +34,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="1eaH9o1iyVntEScJHTDzjWPp9mO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,7 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/com/generic/graphics/test" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../dijkstra_rework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -104,37 +119,8 @@
       <workItem from="1605445237725" duration="36000" />
       <workItem from="1605454931851" duration="156000" />
       <workItem from="1605455304304" duration="636000" />
+      <workItem from="1642341200918" duration="122000" />
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1605445271661">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605445271661" />
-    <state width="1899" height="133" key="GridCell.Tab.0.bottom" timestamp="1605455940152">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="133" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605455940152" />
-    <state width="1899" height="133" key="GridCell.Tab.0.center" timestamp="1605455940152">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="133" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605455940152" />
-    <state width="1899" height="133" key="GridCell.Tab.0.left" timestamp="1605455940152">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="133" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605455940152" />
-    <state width="1899" height="133" key="GridCell.Tab.0.right" timestamp="1605455940152">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="133" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605455940152" />
-    <state x="776" y="297" key="chooseDestDirectoryDialog" timestamp="1605455442299">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="776" y="297" key="chooseDestDirectoryDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605455442299" />
-    <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1605455904550">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605455904550" />
   </component>
 </project>
